@@ -166,7 +166,7 @@ if (isset($_POST["submit"])) {
                                 <hr class="dropdown-divider">
                             </li>
                             <li>
-                                <a class="dropdown-item" href="dis.php">
+                                <a class="dropdown-item" href="ration_display.php">
                                     DISPLAY PRODUCT
                                 </a>
                             </li>
