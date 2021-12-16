@@ -1,5 +1,5 @@
 <?php
-include "connect.php";
+include "../config.php";
 
 $rid = $_GET["updateid"];
 $rrid = $_GET["updatedid"];
@@ -11,7 +11,7 @@ if ($rrid!=NULL) {
         $sql = "UPDATE `order_data` SET STATUS = 'Discarded' WHERE REFERENCEID = $rrid";
 }
 
-$result = mysqli_query($con, $sql);
+$result = mysqli_query($connection, $sql);
     if ($result) {
         echo "<script>confirm('Product updated successfully')</script>";
     } else {
