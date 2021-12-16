@@ -1,5 +1,5 @@
 <?php
-include "connect.php";
+include "../config.php";
 session_start();
 error_reporting(0);
 ?>
@@ -150,8 +150,8 @@ error_reporting(0);
                 <tbody class="bg-dark text-white">
                     <?php
                     $district = $_SESSION['DISTRICT'];
-                    $sql = "Select *from `order_data`,`user_data` where order_data.UAADHAR=user_data.UAADHAR AND UDISTRICT = 'North Goa' ";
-                    $result = mysqli_query($con, $sql);
+                    $sql = "Select *from `order_data`,`user_data` where order_data.UAADHAR=user_data.UAADHAR AND UDISTRICT = '$district' ";
+                    $result = mysqli_query($connection, $sql);
                     if ($result) {
                         while ($row = mysqli_fetch_assoc($result)) {
                             $rid = $row["REFERENCEID"];
