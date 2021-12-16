@@ -144,7 +144,7 @@ if (isset($_POST["submit"])) {
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li>
-                                <a class="dropdown-item" href="add.php">
+                                <a class="dropdown-item" href="ration_add.php">
                                     ADD PRODUCT
                                 </a>
                             </li>
@@ -152,7 +152,7 @@ if (isset($_POST["submit"])) {
                                 <hr class="dropdown-divider">
                             </li>
                             <li>
-                                <a class="dropdown-item" href="dis.php">
+                                <a class="dropdown-item" href="ration_display.php">
                                     DISPLAY PRODUCT
                                 </a>
                             </li>
@@ -160,7 +160,7 @@ if (isset($_POST["submit"])) {
                                 <hr class="dropdown-divider">
                             </li>
                             <li>
-                                <a class="dropdown-item" href="discard.php">
+                                <a class="dropdown-item" href="ration_discard.php">
                                     DISCARDED PRODUCT
                                 </a>
                             </li>
@@ -170,7 +170,7 @@ if (isset($_POST["submit"])) {
                     <!-- Sales Info -->
                     <li class="nav-item">
                         <a class="nav-link" style="margin-right: 20px;" aria-current="page"
-                            href="ration_add.php">Sales</a>
+                            href="order_display.php">Sales</a>
                     </li>
 
                     <!-- User & Courier Details-->
