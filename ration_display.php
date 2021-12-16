@@ -171,7 +171,7 @@ error_reporting(0);
                                     <td>' . $md . '</td>
                                     <td>' . $ed . '</td>
                                     <<td><img src='.$image.' height="100px" width="100px"></a></td>
-                                    <td><a href="updt.php?updateid=' . $pid . '" data-toggle="tooltip" data-placement="bottom" title="UPDATE"> <i class="fa fa-edit" aria-hidden="true"></i></a></td>
+                                    <td><a href="ration_update.php?updateid=' . $pid . '" data-toggle="tooltip" data-placement="bottom" title="UPDATE"> <i class="fa fa-edit" aria-hidden="true"></i></a></td>
                                     <td><a href="ration_del.php?deleteid=' . $pid . '" data-toggle="tooltip" data-placement="bottom" title="DELETE"> <i class="fa fa-trash" aria-hidden="true"></i></a></td>
                                     </td>
                                  </tr>';
