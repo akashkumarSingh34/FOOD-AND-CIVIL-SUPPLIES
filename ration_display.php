@@ -149,7 +149,7 @@ error_reporting(0);
                 <tbody class="bg-dark text-white">
                     <?php
                     $district = $_SESSION['DISTRICT'];
-                    $sql = "Select *from `products` where district = '$district'";
+                    $sql = "Select *from `product_data` where DISTRICT = '$district'";
                     $result = mysqli_query($con, $sql);
                     if ($result) {
                         while ($row = mysqli_fetch_assoc($result)) {
