@@ -150,7 +150,7 @@ error_reporting(0);
                     <?php
                     $district = $_SESSION['DISTRICT'];
                     $sql = "Select *from `product_data` where DISTRICT = '$district'";
-                    $result = mysqli_query($con, $sql);
+                    $result = mysqli_query($connection, $sql);
                     if ($result) {
                         while ($row = mysqli_fetch_assoc($result)) {
                             $pid = $row["PID"];
