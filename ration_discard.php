@@ -106,10 +106,6 @@ error_reporting(0);
                         </ul>
                     </li>
 
-                    <!-- Contact Us -->
-                    <li class="nav-item">
-                        <a class="nav-link" style="margin-right: 10px;" href="#">Contact Us</a>
-                    </li>
 
                     <!-- LogOut -->
                     <li class="nav-item">
